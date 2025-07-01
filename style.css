@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 3px solid black;
+    margin: 1rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    
+}
+#red {
+    background-color: crimson;
+}
+#green {
+    background-color:rgb(135, 213, 58);
+}
+#yellow {
+    background-color:rgb(235, 227, 12);
+}
+#blue {
+    background-color:cornflowerblue;
+}
+
+.flash {
+    transform: scale(1.05);
+    filter: brightness(200%);
+    transition: all 0.5s;
+  }
+
+
+.redbg {
+    background-color: red;
+  transition: background-color 0.2s;
+    
+  }
+  
